@@ -3,7 +3,7 @@
   "success_url": "/",
   "addons": [ "papertrail" ],
   "env":{
-    "_LOGIN": "login",
-    "_PASSWORD": "password"
+    "LOGIN": "login",
+    "PASSWORD": "password"
   }
 }
