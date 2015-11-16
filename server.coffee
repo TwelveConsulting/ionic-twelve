@@ -1,5 +1,4 @@
 
-http = require('http')
 basic_auth = require('basic-auth')
 express = require('express')
 app = express()
