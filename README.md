@@ -12,9 +12,12 @@ Start by opening the package.json. There is gulp, bower.
 
 Fork this repo on github.
 
+Change app.json with good credentials.
+
 Create a heroku app and connect it to github.
 
 Connect Circle Ci or any other continuous integration service provider.
+
 
 ## Recommended workflow :
 
