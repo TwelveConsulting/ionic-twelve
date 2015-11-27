@@ -8,6 +8,7 @@ var rename = require('gulp-rename');
 var jade = require('gulp-jade');
 var sh = require('shelljs');
 var coffee = require('gulp-coffee');
+require('dotenv').load();
 
 var paths = {
   sass: ['./sass/**/*.sass'],
@@ -39,7 +40,11 @@ gulp.task('coffee', function() {
 
 gulp.task('jade', function () {
     return gulp.src(paths.jade)
-      .pipe(jade())
+      .pipe(jade({
+        locals: {
+          env: process.env
+        }
+      }))
       .pipe(gulp.dest('./www/'))
 });
 
