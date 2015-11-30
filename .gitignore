@@ -6,5 +6,6 @@ platforms/
 plugins/
 www/js
 www/css
+www/lib
 www/index.html
 www/templates
